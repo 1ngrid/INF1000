@@ -1,0 +1,22 @@
+Jeg lovte å legge ut kode for at dere skal kunne få linjenummer på siden i emacs. 
+
+For å gjøre dette må dere være på hjemmeområdet deres (~), og der åpner dere en fil som heter ".emacs".** Her legger dere ved: 
+
+(line-number-mode t)			; want line numbers in modeline
+(global-linum-mode)			; show line numbers
+
+;; Custom mode-line, makes it prettier
+(setq mode-line-system-identification
+      (substring (system-name) 0
+		 (string-match "\\..+" (system-name))))
+(setq default-mode-line-format
+      (list "" 'mode-line-modified "<" 'mode-line-system-identification "> "
+	    "%14b" " " 'default-directory " " "%[(" 'mode-name 'minor-mode-alist
+	    "%n" 'mode-line-process ")%] " "Line [%l|%c] " '(-3 . "%P") "-%-"))
+(setq mode-line-format default-mode-line-format)
+
+
+Og lukker og lagerer. Heretter skal dere da ha linjenummer på siden. 
+
+
+** Eventuelt kan dere åpne filen som "~/.emacs", det blir det samme. 
