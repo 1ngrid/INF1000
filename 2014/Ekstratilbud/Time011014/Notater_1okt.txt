@@ -1,0 +1,12 @@
+Ekstratimen 1. oktober
+
+Tenk rundt disse spørsmålene:
+ * Hva er en klasse?
+ * Hva er et objekt?
+ * Hvilke klasser ønsker vi å lage objekter av? 
+ * Forskjellen mellom klasse og objekt: Kokebok, oppskrifter og faktisk matretter
+ * Pekere
+
+ - Hva skjer når vi skriver "new Person()"?
+ - Når ønsker vi å opprette objekter? Substantiv, ting
+
