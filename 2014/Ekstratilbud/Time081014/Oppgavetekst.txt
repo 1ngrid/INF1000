@@ -1,0 +1,33 @@
+Oppgave for fellesløsing, 8.oktober 2014
+
+1. Lag et program for å ha oversikt over hvilke hybler som er i et hybelhus og hivlke studenter som bor der. 
+
+Hvilke klasser trenger vi? Leser fra oppgaveteksten: 
+ * Student
+ * Hybel
+ * Hybelhus
+ * + en klasse til main-metoden
+
+a) Lag en klasse for å representere en student. Alle studenter har et navn. 
+
+Hva får vi fra denne oppgaveteksten?
+ * trenger en klasse Student. 
+ * Alle studenter har et navn -> variabel: String navn
+
+b) Lag en klasse for å representere en hybel. En hybel er i en etasje og har en bokstav (feks 1A). I tillegg vet hybelen hvilken student som evt bor der. 
+
+Hva vet vi fra oppgaveteksten?
+ * Trenger en klasse Hybel
+ * Alle hybler har en etasje, feks: int etg
+ * Alle hybler har en bokstav, feks: char bokstav
+ * Alle hybler har en peker til en student, fekst Student leietaker
+
+c) Lag en klasse Hybelhus med 10 hybler. La 2 studenter flytte inn. Lag en metode for å printe ut hvem som bor i hybelhuset. 
+
+Hva vet vi fra oppgaveteksten?
+ * Hybelhus er en kalsse, trenger en array av hybler
+
+Mine forslag til hvor de ulike objektene skal opprettes: 
+Studentene? I main-metoden. 
+Hybelen? I hybelhus.
+Hybelhus? I main-metoden.
