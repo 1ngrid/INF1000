@@ -1,0 +1,14 @@
+Stein, Saks, Papi
+// oppgave løst i fellesskap på ekstratimen 15.10.14
+
+1. Lag en klasse Spiller som har et navn som leses inn fra terminalen. Opprett deretter et objekt av klassen
+2. Lag klassene Stein, Saks og Papir. La spillere ha pekere til objekter av disse klassene. 
+3. Lag en klasse Spill som tar i mot en String fra brukeren og gjør følgende: 
+   * oppretter et objekt av klassen Stein hvis teksten er "stein"
+   * oppretter et objekt av klassen Saks hvis teksten er "saks"
+   * oppretter et objekt av klassen Papir hvis teksten er "papir"
+Gi deretter objektet til spilleren. 
+
+// Fortsettelse på oppgaven : 
+4. La spillet ha en spiller "datamaskin" som gså spiller. Datamaskinen generere et tilfeldig tall (0, 1, 2) og velger ut fra dette om den spiller stein, skas eller papir. 
+5. Lag en metode som sjekker hvem som har vunnet av datamaskinen og spilleren. 
