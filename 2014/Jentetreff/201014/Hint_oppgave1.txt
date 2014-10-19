@@ -1,0 +1,8 @@
+Hint til oppgave 1)
+
+- En spiller burde ha et navn
+- Terningen bør ha en verdi.
+- Verdien skal generes tilfeldig (kanskje dette skal gjøres i konstruktøren?)
+- For å velge et random tall, bruk java.util.Random og metoden til Random, nemlig nextInt(6)
+Se også dokumentasjonen på Random her:
+- Siden terningen har verdier fra 1 til 6 må vi huske å legge til 1 på det tallet som blir generert. 
