@@ -1,0 +1,30 @@
+Oppgave til jentetreff i INF1000
+
+Dato: 20. oktober 2014
+Tema: Klasser og objekter
+
+Vi skal simulere et veldig enkelt yatzy-spill. Vi antar at et spill har spillere som bytter på å kaste terninger. En terning har en verdi fra 1 til 6, og per runde kaster spillene 5 terninger. En terning får en tilfeldig verdi fra programmet.
+
+1. Start med å finne ut hvilke klasser du trenger. Lag klassene og konstruktører i klassene med det du mener er fornuftige parametre.
+(Trenger du hjelp med denne oppgaven? Se hint her: https://github.com/1ngrid/INF1000/blob/master/2014/Jentetreff/201014/Hint_oppgave1.txt)
+
+2. Tegn et diagram for å forstå hvordan klassene henger sammen. Du trenger ikke lage et UML-diagram.
+
+3. Gi spilleren en metode for å kaste terningene. Lg også en metode for å hente ut terningene.
+(Hint: opprett 5 nye terninger hos spilleren hver gang spilleren kaster)
+
+4. Opprett en metode for å skrive ut hva spilleren har kastet.
+
+5. Lag en metode for å sjekke om en spiller har kastet yatzy (5 like terninger)
+
+
+6. Opprett en spiller og la spilleren kaste terningene. Sjekk deretter om spilleren har fått yatzy.
+
+
+--
+Litt vanskeligere utvidelsesoppgaver:
+
+7. La spilleren spare på den verdien som det er flest av og kast de resterende terningene. Se om spilleren har fått yatzy etter 5 kast og skriv ut hvilke terninger spilleren nå har.
+(Hint: Her kan det være lurt med en metode for å sjekke hvilken verdi det er flest av)
+
+8. Lag en metode for å sjekke om spilleren har kastet liten eller stor stright.
