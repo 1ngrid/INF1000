@@ -1,0 +1,5 @@
+Forslag til endringer:
+ * Fjerne personen fra uvenn-lista dersom de ønsker å bli venner
+ * returnere boolean fra om man får til å legge til personen som venn eller ikke
+ * Feilmelding printes et sted?
+ * Lese inn navn fra terminalen
