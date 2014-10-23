@@ -1,0 +1,43 @@
+Svar på oppgave a)
+
+Vi fant først alle substantivene i oppgaveteksten:
+
+System
+Eksamensresultater
+INF1000
+Systemet
+resultater
+resultat
+navn
+karakter
+
+Deretter gjorde vi alle til entallsform (siden vi flertall av ordet stort sett betyr at vi ønsker å lage flere objekter av klassen):
+
+System
+Eksamensresultat
+INF1000
+Systemet
+resultat
+resultat
+navn
+karakter
+
+Deretter fjernet vi duplikater og de som betydde det samme:
+
+System
+INF1000
+resultat
+navn
+karakter
+
+Først tenkte vi at navn kanskje burde være en variabel i en Student-klasse, men deretter kom vi fram til at dette kanskje ikke var nødvendig. I stedet kom vi fram til at navn og karakter kunne lagres under resultat som variable:
+
+System
+INF1000
+resultat (inneholder navn, karakter)
+
+Og deretter gjorde vi om navnet System til å være noe annet (for å unngå feilmeldinger):
+
+Resultatsystem
+INF1000
+Resultat (inneholder variablene navn, karakter)

@@ -1,0 +1,14 @@
+Eksamesresultatsystem for INF1000
+
+Vi skal lage et system for å lagre eksamensresultater i INF1000. Systemet skal kunne lagre 0 til flere resultater hvor et resultat består av et en navn og en karakter (A-F).
+
+ a) Finn hvilke klasser vi trenger og lag et klassediagram.
+
+ b) Lag klassen Resultat med konstruktør og toString-metode.
+
+ c) Lag en datastruktur for å lagre resultater inkludert en metode for å legge inn et
+resultat og en metode for å hente ut alle resultater.
+
+ d) Legg inn tre resultater i systemet.
+
+ e) Lag en metode for å finne navnet på alle studenter som fikk A i INF1000.
