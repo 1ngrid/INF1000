@@ -1,0 +1,31 @@
+Øve på HashMap
+
+Vi skal lage et studentsystem for å lagre hvilke fag studenter er meldt opp i ved hjelp av en HashMap.
+
+Vi har en fil der vi har gitt på følgende format:
+
+*INF1000
+Espen Askeladd
+Per Askeladd
+Paal Askeladd
+*MAT1001
+Per Askeladd
+Paal Askeladd
+Kongen
+*MAT1100
+Prinsessa
+Espen Askeladd
+
+En linje som inneholder en fagkode starter med en '*'. Alle andre linjer er navn.
+
+Studenter har en egen datastruktur for å lagre hvilke fag de tar og et fag er representert ved hjelp av en String. 
+
+ a) Finn hvilke klasser du trenger og lag et UML-diagram for å vise sammenhengen mellom klassene.
+
+Datastrukturen for å lagre hvilke fag en student har, skal være en HashMap, feks
+
+HashMap<String, Student> studentOversikt;
+
+ b) Lag en metode for å lese inn filen slik at informasjonen blir lagret i HashMapen.
+
+ c) Lag en metode for å printe ut alle studentene og hvilke fag de tar.
