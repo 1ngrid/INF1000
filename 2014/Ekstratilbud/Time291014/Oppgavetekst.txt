@@ -1,0 +1,34 @@
+Oppgavetekst:
+
+Vi skal lage et program for å representere en enkel butikk. Butikken inneholder varer, der varen har infomrasjon om hva slags vare den er g hvor mange det er av denne varen i butikken. Butikken eies av en person. Hvis en kunde kjøre en vare vil butikken ha en mindre av den akutelle varen og personen vil ha en vare med det aktuelle varenavnet.
+
+// Informasjon lagt til:
+En person kan bare kjøpe en vare av gangen, så antallet som reduseres er 1 hver gang. Hvis en person kjøper en vare som personen allerede har skal antallet på personens vare øke med 1.
+
+
+a) Finn hvilke klasser vi trenger og lag et UML-diagram for å representere forholdet mellom klassene
+
+b) Lag klassene og ha passende konstruktører og toString()-metoder
+
+c) Lag en datastruktur for å ta vare på hvilke varer som finnes i butikken.
+
+d) Gi kunden en datastruktur for å lagre varen når den er kjøpt.
+
+// Dette rakk vi ikke på seminartimen:
+
+e) Vi antar at det kun funnes tre typer varer i butikken:
+* potetgull
+* brus
+* sjokolade
+La butikken ha 3 poser potetgull, 4 flasker brus og 5 plater med sjokolade.
+Skriv ut hva som finnes i butikken.
+
+f) Opprett 3 kunder og la en av kundene kjøre en pose potetgull og en flaske brus.
+Skriv ut hvilke varer kunden nå har og deretter hvilke varer butikken har.
+
+// Forslag til utviding av programmet: [disse er ikke implementert]
+g) Utstyr programmet med en kommandoløkke med følgende kommandoer:
+* V)are : Legg til vare i programmet. Leser inn navnet på en vare og lagrer denne varen i butikken
+* K)unde : Legg til kunde i programmet. Leser inn navnet på kunden i programmet og lagrer kunden (feks ArrayList eller HashMap?)
+* H)andle: Ta inn et varenavn og et kundenavn. La kunden handle den aktuelle varen fra butikken. Gi en feilmelding hvis varen eller kunden ikke finnes
+* A)vslutt: Avslutt programmet. 

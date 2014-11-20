@@ -1,0 +1,45 @@
+Dette er det jeg har tenkt å snakke om på timen:
+
+* Hensikten med konstruktører:
+ - Poenget med konstruktører er at vi har noen variable vi *vil* at skal ha verdi
+ - Er det noe poeng å lage personer uten navn?
+ - Vil vi at det skal være mulig å endre navnet?
+
+ Forskjell på disse klassene:
+
+// Navnet kan ikke endres i denne klassen og alle personer *må* ha et navn
+public class Person{
+  private String navn;
+  public Person(String navn){
+    this.navn = navn;
+  }
+}
+//Eksempelkjøring:
+// Person per = new Person("Per");
+
+// Her kan personer lages uten navn og de vil også kunne endre navn
+public class Person{
+  private String navn;
+  public void giNavn(String navn){
+    this.navn = navn;
+  }
+}
+
+// Eksempelkjøring:
+// Person per = new Person();
+// per.giNavn("Per");
+// Per.giNavn("Mari");
+
+// Eller Personer uten navn:
+// Person per = new Person();
+
+ - Andre poenger: kortere kode
+ - Sikkerhet
+
+* Bruk av toString():
+ - Når vi ønsker å printe ut noe fint til terminalen
+ - Sikkerhet på at vi får informasjon vi er interessert i
+ - Egen representasjon vi skjønner: computer vs human
+ - Må ikke bruke det, men er vanlig akkurat som vi ofte kaller personer ved navn
+
+* Referanser mellom klasser og objekter. 

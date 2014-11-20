@@ -1,0 +1,70 @@
+// Løsningsforslag til oppgave a)
+
+Finne hvilke klasser vi har:
+
+* Finn alle substantiv i oppgaveteksten:
+
+program
+butikk
+Butikken
+varer
+varen
+informasjon
+vare
+varen
+butikken
+Butikken
+person
+kunde
+vare
+butikken
+varen
+personen
+vare
+varenavnet
+
+* Fjern flertall og bestemt form av alle substantivene:
+program
+butikk
+Butikk
+vare
+vare
+informasjon
+vare
+vare
+butikk
+Butikk
+person
+kunde
+vare
+butikk
+vare
+person
+vare
+varenavn
+
+* Fjern alle duplikater
+
+program
+butikk
+vare
+informasjon
+person
+kunde
+varenavn
+
+* Finn de ordene som representerer det samme :
+
+program
+butikk
+vare
+informasjon
+person (kunde og person)
+varenavn
+
+* fjern det som egentlig er informasjon om variable
+
+program
+butikk
+vare
+person 
